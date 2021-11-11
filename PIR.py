@@ -5,7 +5,7 @@ import pythonConfig as cfg
 import RPi.GPIO as GPIO
 
 def setup():
-   GPIO.setmode(GPIO.BOARD)
+   #GPIO.setmode(GPIO.BOARD)
    print("PIR pin setup")
    GPIO.setup(cfg.PIR_pin, GPIO.IN)
    PIR_value = 0
