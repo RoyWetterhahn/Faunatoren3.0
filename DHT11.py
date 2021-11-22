@@ -1,3 +1,4 @@
+#DHT11 Temperature, humidity senor
 import time
 import board
 import adafruit_dht
@@ -21,3 +22,4 @@ if __name__ == '__main__':
      temperature_c, humidity = run(dhtDevice)
      print("Temp: {:.1f} C    Humidity: {}% " .format(temperature_c, humidity))      
      time.sleep(2)
+

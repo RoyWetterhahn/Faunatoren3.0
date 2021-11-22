@@ -1,4 +1,4 @@
-import os
+#main program for the birdhouse
 import time
 import requests
 import pythonConfig as cfg
@@ -6,7 +6,6 @@ import PIR
 import DHT11
 import recorder
 import RPi.GPIO as GPIO
-from threading import Thread
 
 def setup():
     GPIO.cleanup()

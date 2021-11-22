@@ -1,3 +1,4 @@
+#config file here are al the global settings
 import board
 import pyaudio
 
@@ -17,3 +18,4 @@ chunk = 4096 # 2^12 samples for buffer
 record_secs = 4 # seconds to record
 dev_index = 2 # device index found by p.get_device_info_by_index(ii)
 wav_output_filename = 'example2.wav' # name of .wav file
+

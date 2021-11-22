@@ -1,3 +1,4 @@
+#Passive infared sensor
 import os
 import time
 import requests
@@ -22,8 +23,7 @@ def run():
 if __name__ == '__main__':
    print("Dit is de PIR test")
    setup()
-   while True: 
-      while (run()):
-         time.sleep(5)
-      time.sleep(1)
+   for i in range(20)
+      run()
+      time.sleep(3)
 
