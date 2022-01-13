@@ -1,14 +1,15 @@
 #config file here are al the global settings
-import board
+#import board
 import pyaudio
 
 #Ip adres dashboard
-url = 'http://172.31.99.222/api/widget'
+url = 'http://159.69.193.18:1234/fauna'
+url_id = 'http://159.69.193.18:1234/fauna/identifications'
 #pin infarood sensor
 PIR_pin = 8
 PIR_value = 0
 #DHT sensor
-DHT_pin = board.D4
+DHT_pin = 4
 #Microphone settings
 form_1 = pyaudio.paInt16 # 16-bit resolution
 chans = 1 # 1 channel

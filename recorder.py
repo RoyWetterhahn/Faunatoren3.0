@@ -29,12 +29,13 @@ def run():
     wavefile.writeframes(b''.join(frames))
     wavefile.close() 
 
-if __name__ == '__main__':
-    run()
-
 def listDevices(): 
     p = pyaudio.PyAudio()
     print("device count = ", p.get_device_count())
     for ii in range(p.get_device_count()):
         print(p.get_device_info_by_index(ii).get('name'))
+
+if __name__ == '__main__':
+    listDevices()
+
 
