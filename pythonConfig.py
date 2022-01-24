@@ -2,12 +2,15 @@
 #import board
 import pyaudio
 
+#aparaat naam
+device_id = "IOT_stadslab"
 #Ip adres dashboard
 url = 'http://159.69.193.18:1234/fauna'
 url_id = 'http://159.69.193.18:1234/fauna/identifications'
 #pin infarood sensor
 PIR_pin = 8
 PIR_value = 0
+temp_offset = 1
 #DHT sensor
 DHT_pin = 4
 #Microphone settings
