@@ -1,5 +1,6 @@
 # Faunatoren3.0
 Hier zijn de bestanden en documentatie van de Pi te vinden.<br />
+Voor het opzetten en het laten draaien van dit project zie documentatie/handleiding RaspberryPi <br />
 
 Sensor code uitleg: <br />
 De sensor bestanden zijn los van elkaar te draaien zodat deze getest kunnen worden.<br />
